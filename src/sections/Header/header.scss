@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: clamp(1.875rem, 1.3315rem + 0.8696vw, 2.375rem) clamp(2.1875rem, -3.2473rem + 8.6957vw, 7.1875rem);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    .nav-items, button {
+        @media (max-width: 1000px) {
+            display: none !important;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        padding: clamp(0.3125rem, -0.0893rem + 2.1429vw, 1.25rem) clamp(0.9375rem, 0.2679rem + 3.5714vw, 2.5rem);
+    }
+}

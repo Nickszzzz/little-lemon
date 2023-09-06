@@ -1,0 +1,24 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 102px;
+}
+.hero h1 {
+  color: var(--Primary, #FFDE47);
+  font-family: "Kaushan Script", cursive;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero p {
+  color: var(--Light, #FFF);
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}/*# sourceMappingURL=hero.css.map */

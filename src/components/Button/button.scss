@@ -1,0 +1,13 @@
+.primary {
+    a {
+        color: var(--Light, #fff);
+        font-family: 'Inter', sans-serif;
+        font-size: clamp(0.9375rem, 0.3261rem + 0.9783vw, 1.5rem);
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        border: 3px solid var(--Light, #fff);
+        padding: clamp(0.9375rem, -0.0136rem + 1.5217vw, 1.8125rem) clamp(1.25rem, -1.3315rem + 4.1304vw, 3.625rem);
+    }
+}

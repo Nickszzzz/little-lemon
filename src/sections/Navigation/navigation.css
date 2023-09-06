@@ -1,0 +1,25 @@
+.navigation {
+  padding: 17px 0;
+}
+.navigation .nav-items {
+  display: flex;
+  -moz-column-gap: clamp(0.9375rem, -1.2708rem + 4.6007vw, 4.25rem);
+       column-gap: clamp(0.9375rem, -1.2708rem + 4.6007vw, 4.25rem);
+}
+.navigation .nav-items .nav-item {
+  display: inline;
+  color: var(--Light, #fff);
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1.125rem, 0.7174rem + 0.6522vw, 1.5rem);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.navigation .mobile-menu {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .navigation .mobile-menu {
+    display: block;
+  }
+}/*# sourceMappingURL=navigation.css.map */
